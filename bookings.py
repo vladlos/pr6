@@ -1,9 +1,9 @@
 """Операції з бронюваннями системи «Аудиторний фонд»."""
 
 
-def end_minute(start_minute, duration):
+def end_minute(start_minute, duration, delay):
     """Повертає хвилину завершення бронювання."""
-    return start_minute + duration
+    return start_minute + duration + delay
 
 
 def overlaps(start_a, end_a, start_b, end_b):
