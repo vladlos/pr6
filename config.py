@@ -1,4 +1,5 @@
 """Налаштування системи «КіберМаркет»."""
 
-# add comment
-PREPAYMENT_THRESHOLD = 30000
+
+PREPAYMENT_THRESHOLD = 50000
+
