@@ -6,6 +6,9 @@ def free_stock(quantity, reserved):
     return quantity - reserved
 
 
-def cant_order(requested, quantity, reserved):
+def can_do_order(requested, quantity, reserved):
     """Перевіряє, чи вистачає вільного залишку на замовлення."""
     return free_stock(quantity, reserved) >= requested
+
+
+
